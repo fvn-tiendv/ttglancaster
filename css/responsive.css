@@ -1,0 +1,157 @@
+/* responsive */
+.box_sp {
+	display: none;
+}
+.box_pc {
+	display: block;
+}
+
+/*responsive */
+
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (max-width: 768px) {
+#toTop {
+	display: none !important;
+}
+img {
+	max-width: 100%;
+}
+#wrapper, #header, #main, #footer, .inner, .under .under_inner {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+.box_sp {
+	display: block;
+}
+.box_pc {
+	display: none;
+}
+.section {
+	padding: 0 0 30px 0;
+}
+.section .section {
+	padding: 0 0 10px;
+}
+/*---*/
+#index #top_info {
+	margin-top: 77px;
+}
+#index_box01 p {
+	font-size: 16px;
+}
+#index_box03 .box03_cttext {
+	font-size: 16px;
+}
+#index h3 {
+	font-size: 22px;
+}
+#main ul.content_list3 li, #main ul.content_list2 li {
+	width: 100%;
+	color: #fff;
+	font-weight: bold;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#main ul.content_list3 li .mouse_off .title, #main ul.content_list2 li .mouse_off .title {
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+	display: inline-block;
+	left: 50%;
+	letter-spacing: 0.05em;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	vertical-align: middle;
+	width: 100%;
+}
+#main ul.content_list2 li .mouse_off .title {
+	font-size: 16px;
+	line-height: 1.6em;
+	height: 60px;
+	display: table-cell;
+	vertical-align: middle;
+}
+#main ul.content_list2 li .mouse_off .title span {
+	font-size: 20px;
+	color: #DD5B5B;
+}
+#index_box04 .index_box04_ct {
+	width: 100%;
+	padding: 0;
+}
+#index_box04 .index_box04_ct .txt_box04 {
+	color: #3c3c3c;
+	font-size: 16px;
+	margin-top: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+#index_box04 {
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: auto;
+	padding: 30px 0;
+}
+#index .btn_box04 {
+	border: 1px solid #000;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+}
+#index_box05 {
+	background: rgba(0, 0, 0, 0) url("../images/index_box05bg.jpg") no-repeat scroll center top / cover;
+	padding: 30px 0;
+	height: auto;
+}
+#index_box05 .list_img li {
+	box-sizing: border-box;
+	display: inline-block;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 100%;
+}
+#index_box05 .box05_ct p {
+	font-size: 16px;
+}
+#footer #footer_infoct {
+	width: 100%;
+	text-align: center;
+}
+#footer #footer_infoct p {
+	text-align: center;
+}
+#footer #footer_link {
+	float: none;
+}
+#footer #footer_link ul {
+	float: left;
+	width: 50%;
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 490px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}
